@@ -83,8 +83,7 @@ public class Login extends JFrame {
 				String address = txtAddress.getText();
 				int port = Integer.parseInt(txtPort.getText());
 				login(name, address, port);
-				System.out.println(" text name is "+txtName.getText());
-			}
+				}
 		});
 		btnLogin.setBounds(91, 311, 117, 29);
 		contentPane.add(btnLogin);
